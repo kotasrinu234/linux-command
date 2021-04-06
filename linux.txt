@@ -1,0 +1,20 @@
+alias man_internsctl='man ls' 
+
+#alias defintions.  
+#you may want to put all your additions into a separate file like
+#~/.bash_alises,instead of adding them here directly.
+#see /usr/share/doc/bash-doc/examples in this bash-doc package.
+
+if   [ -f `/.bash-aliases ] ; then
+    . ~/.bash_aliases
+fi
+
+#enable programmable completion features  (you don't need to enable 
+ #this, if it's already enabled)
+
+if [-f/etc/bash_complection ] && ! shot oq posix; then 
+#    ./etc/basch_complection
+
+fi 
+
+                                             
